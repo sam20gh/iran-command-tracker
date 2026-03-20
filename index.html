@@ -918,12 +918,14 @@
 
     // Wikipedia thumbnail fetching — resolves images at runtime
     const WIKI_SLUGS = {
-      1: 'Ali_Khamenei', 2: 'Hossein_Salami_(general)', 3: 'Mohammad_Hossein_Bagheri',
+      1: 'Ali_Khamenei', 2: 'Hossein_Salami', 3: 'Mohammad_Hossein_Bagheri',
       4: 'Abdolrahim_Mousavi', 5: 'Mohammad_Pakpour', 6: 'Qasem_Soleimani',
       7: 'Amir_Ali_Hajizadeh', 9: 'Aziz_Nasirzadeh', 10: 'Ali_Shamkhani',
       11: 'Esmail_Qaani', 15: 'Ali_Larijani', 16: 'Gholamreza_Soleimani',
       17: 'Esmail_Khatib', 18: 'Masoud_Pezeshkian', 20: 'Abbas_Araghchi',
-      21: 'Gholam-Hossein_Mohseni-Eje\'i', 22: 'Mohammad_Bagher_Ghalibaf'
+      21: 'Gholam-Hossein_Mohseni-Eje\'i', 22: 'Mohammad_Bagher_Ghalibaf',
+      8: 'Gholam_Ali_Rashid', 12: 'Mohammad_Kazemi', 13: 'Davoud_Shaykhian',
+      14: 'Mohammad_Bagher_Taher_Pour', 19: 'Mojtaba_Khamenei'
     };
     const imgCache = {};
     async function fetchWikiThumb(id, slug) {
